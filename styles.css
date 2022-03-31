@@ -7,14 +7,17 @@ html {
     overflow:scroll;
     overflow-x:hidden;
 }
-.btn.signup {
-    background-color: #3882F6;
-    color: white;
+
+.btn {
     border-radius: 5px;
     padding: 5px 20px;
     border: none;
     font-weight: bold;
+}
 
+.btn.signup {
+    background-color: #3882F6;
+    color: white;
 }
 
 .btn.signup:hover{
@@ -37,7 +40,6 @@ html {
     justify-content: space-between;
     padding: 100px 100px;
     gap: 50px;
-    
     
 }
 
@@ -132,6 +134,33 @@ html {
     font-weight: bolder;
     text-align: end;
 }
+
+.action {
+    margin: 100px;
+    background-color: #3882F6;
+    color: white;
+    padding: 50px 100px;
+    border-radius: 10px;
+}
+
+.cardAction {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.btn.actionBtn {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.btn.actionBtn:hover{
+    background-color: white;
+    color: #3882F6;
+}
+
 
 ul {
     list-style-type: none;
